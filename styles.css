@@ -1,8 +1,8 @@
 :root {
   /* variables */
-  --cg-black: rgb(30, 32, 32);
-  --cg-blue: rgb(36, 94, 255);
-  --cg-grey: rgb(243, 243, 243);
+  --cg-black: rgb(64, 9, 9);
+  --cg-blue: rgb(62, 15, 15);
+  --cg-purple: rgb(143, 81, 81);
   --cg-white: rgb(255, 255, 255);
 }
 
@@ -11,12 +11,12 @@ html {
 }
 
 body {
-  background: var(--cg-grey);
+  background: var(--cg-purple);
   position: relative;
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  font-family: Garamond;
 }
 
 /* CSS for navigation */
@@ -60,7 +60,7 @@ body {
   text-decoration: none;
   letter-spacing: 2px;
 
-  font-family: monospace;
+  font-family: Garamond;
 }
 
 .navbar a:hover {
@@ -206,7 +206,7 @@ main {
   border: none;
   color: var(--cg-white);
 
-  font-family: monospace;
+  font-family: Garamond;
 
   padding: 5px 7px;
   text-align: center;
