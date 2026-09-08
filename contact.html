@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
   <head>
-    <title>Sanchita's contact</title>
+    <title>Contact Sanchita</title>
   </head>
+
   <body>
     <nav class="navbar">
       <h1 class="logo">Sanchita Modi</h1>
@@ -14,8 +15,23 @@
       <a href="contact.html">Contact</a>
     </nav>
 
-    <main>Hello World! This is my website.</main>
+    <main>
+      <h1 class="page-title">Contact</h1>
 
-    <footer>© 2026 Sanchita Modi | All Rights Reserved</footer>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+
+    <footer class="footer">© 2026 Sanchita Modi | All Rights Reserved</footer>
   </body>
 </html>
